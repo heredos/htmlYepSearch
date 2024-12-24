@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+
+html{
+	padding:0;
+	margin:0;
+	background: #FFF;
+	color: #000;
+	font-family: "M PLUS Rounded 1c", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+.result{
+	border: 0.1em solid #000;
+	color: #000;
+	border-radius: 0.5em;
+	width: 80vw;
+	max-width: 70em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2em;
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
+}
+.result h1{
+	font-size: 1.5em;
+}
+nav{
+	display: block;
+	width: 100%;
+	position: fixed;
+	top:0;
+}
+nav input[type=text]{
+	border: #000 solid 0.1em;
+	background: #FFF8;
+	display: inline-block;
+	margin-right: 0;
+	height: 2.8em;
+	border-radius: 2em;
+	backdrop-filter: blur(0.2em);
+	width: 70vw;
+	margin-top: 0.5REM;
+}
+nav input[type=submit]{
+	background: #000;
+	position: relative;
+	left: -3em;
+	margin-left: 0;
+	border-radius: 1em;
+	border: none;
+}
+form{
+	display: inline-block;
+}
+nav img{
+	display: inline-block;
+	position: fixed;
+	right: 0.5em;
+	height: 3em;
+	width: 3em;
+}
+@media (prefers-color-scheme: dark) {
+	html{
+		color: #FFF;
+		background: #000;
+	}
+.result{
+	border: 0.1em solid #FFF;
+	color: #FFF;
+}
+nav input[type=text]{
+	border: #FFF solid 0.1em;
+	background: #0008;
+	color: #FFF;
+}
+nav input[type=submit]{
+	background: #FFF;
+}
