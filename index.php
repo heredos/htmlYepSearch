@@ -72,3 +72,8 @@ if (isset($_GET['q'])){
 	echo "welcome to the HTML yep search experience! please use the search bar to look for something.";
 }
 ?>
+<footer>
+this project is not affiliated nor endorsed by yep or ahrefs. In fact, it is using an unprotected endpoint that's not supposed to exist, so who knows when it will stop working.
+</footer>
+</body>
+</html>
