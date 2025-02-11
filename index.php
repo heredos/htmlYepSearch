@@ -45,7 +45,7 @@ if ($s){
 <?php
 if (isset($_GET['q'])){
 	$q=$_GET['q'];
-	$output = file_get_contents("https://api.yep.live/search?q=".urlencode($q));
+	$output = file_get_contents("https://api.yep.live/2/search?q=".urlencode($q));
 	//echo $output;
 	//echo "$q";
 	$res = json_decode($output, true);
